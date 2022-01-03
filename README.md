@@ -1,1 +1,1 @@
-https://github.com/marichca/rsschool-cv.git
+https://marichca.github.io/rsschool-cv/
