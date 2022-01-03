@@ -1,0 +1,27 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5f7fa;
+}
+
+.main-conteiner {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  background: #fff;
+  margin: 40px auto;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0,1);
+}
+
+/* my content srction*/
+
+.main-content {
+  padding: 100px 90px;
+}
+ .my-discription {
+   width: 400px;
+   font-size: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 24px;
+   color: #595959;
+ }
