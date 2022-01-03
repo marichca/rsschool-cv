@@ -4,9 +4,161 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>My CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/favicon.ico">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+
+<!--main-conteiner-->
+<div class="main-conteiner">
+  <!--Main-content-->
+  <div class="main-content">
+    <!--About-me-conteiner-->
+    <header class="about-me-conteiner">
+      <h2 class="about-me-profession">FRONT-END DEVELOPER</h2>
+      <h1 class="about-me-name">MARINA ICHKENKO</h1>
+
+      <p class="my-discription">I like to solve difficult tasks, I need activities in which I can develop throughout my life.Therefore, I chose programming as a further profession and hobby.
+I love traveling and discovering new countries.</p>
+    </header>
+
+    <!--about me  project-->
+    <main class="my-project">
+      <h3 class="my-content-title">My course</h3>
+
+      <ol class="my-project-list">
+        <li class="my-project-item">
+          <span class="my-project-text">
+            <a class="my-project-link" href="https://skillcrucial.com/">"https://skillcrucial.com"</a>
+            ....................................................
+            <span class="my-project-bracket">[</span>JavaScript<span class="my-project-bracket">]</span>
+        </span>
+        </li>
+        <li class="my-project-item">
+          <span class="my-project-text">
+          <a class="my-project-link" href="https://rs.school/">"https://rs.school"</a>
+          ....................................................................
+          <span class="my-project-bracket">[</span>JavaScript<span class="my-project-bracket">]</span>
+          </span>
+        </li>
+      </ol>
+
+      <!--Me work experience-->
+      <div class="my-work-experience">
+        <h3 class="my-content-title">Experience</h3>
+         <!-- company-->
+        <div class="my-work-experience-blok">
+          <h4 class="my-work-experience-position">Head of production firm <span class="my-work-experience-company">"Solodkovsky and K"</span></h4>
+          <p class="my-work-experience-time">February 2020 - present<span class="my-work-experience-diveder"> | </span> Ukraine </p>
+
+          <h4 class="my-work-experience-position">Head of the accounting group of LLC firm <span class="my-work-experience-company">"Solodkovsky and K"</span></h4>
+          <p class="my-work-experience-time">February 2008 - February 2020<span class="my-work-experience-diveder"> | </span> Ukraine </p>
+
+          <h4 class="my-work-experience-position">Seller-cashier LLC firm <span class="my-work-experience-company">"Solodkovsky and K"</span></h4>
+          <p class="my-work-experience-time">December 2003 - February 2008<span class="my-work-experience-diveder"> | </span> Ukraine </p>
+
+          <h4 class="my-work-experience-position">Manager of LLC firm <span class="my-work-experience-company">"Talisman"</span></h4>
+          <p class="my-work-experience-time">March 2002 - December 2003<span class="my-work-experience-diveder"> | </span> Ukraine </p>
+        </div>
+      </div>
+      <!--education-->
+      <div class="my-education">
+
+        <h3 class="my-content-title">Education</h3>
+
+        <div>
+          <h4 class="my-education-line"><span class="my-education-univer">NTU "KhPI"</span></h4>
+          <h4 class="my-education-position">Foundry Equipment Engineer</h4>
+          <p class="my-work-experience-time">1997 - 2003 | Ukraine </p>
+
+          <h4 class="my-education-line"><span class="my-education-univer">Kharkov Engineering College</span></h4>
+          <h4 class="my-education-position">Foundry equipment</h4>
+          <p class="my-work-experience-time">1993 - 1997 | Ukraine </p>
+        </div>
+
+      </div>
+
+      <!-- language-->
+      <div class="my-language">
+        <h3 class="language">Language skills</h3>
+        <ul class="language-list">
+          <li class="language-item"><span class="language-text">Russian</span></li>
+          <li class="language-item"><span class="language-text">Ukrainian</span></li>
+          <li class="language-item"><span class="language-text">English - Pre-Intermediate</span></li>
+        </ul>
+      </div>
+
+      <!--My code-->
+      <div class="my-code">
+        <h3 class="example">Code Example</h3>
+        <pre>function getDayOfTheWeek(date) {
+const dayOfWeek = new Date(date).getDay()
+  return isNaN(dayOfWeek) ? null :
+    [&#039;Sunday&#039;, &#039;Monday&#039;, &#039;Tuesday&#039;, &#039;Wednesday&#039;, &#039;Thursday&#039;, &#039;Friday&#039;, &#039;Saturday&#039;][dayOfWeek]
+}</pre>
+      </div>
+
+        <!--footer-->
+  <footer id="main-footer">
+    <div class="title">Kharkiv 2022</div>
+    <div class="github">
+      <a class="my-git" href="https://github.com/marichca">https://github.com/marichca</a>
+      <a class="my-git" href="https://rs.school/images/rs_school_js.svg">https://rs.school/images/rs_school_js.svg</a>
+      <a class="my-git" href="https://rs.school/js/">https://rs.school/js/</a>
+    </div>
+</footer>
+
+    </main>
+  </div>
+
+
+
+    <!--sidebar section-->
+
+    <aside class="sidebar-section">
+      <img class="photo" src="assets/img/1637430969099.png" alt="my-photo">
+
+      <!-- contact section-->
+
+      <div class="contact-section">
+        <h3 class="sidebar-title">MY CONTACT</h3>
+        <div>
+          <span class="contact-section-type">C:</span>
+          <a class="contact-section-link" href="tel:+380505261679">+38 050 526 16 79</a>
+        </div>
+        <div>
+          <span class="contact-section-type">E:</span>
+          <a class="contact-section-link" href="mailto:marichka182@gmail.com">marichka182@gmail.com</a>
+        </div>
+
+      </div>
+
+      <!--tech skills section-->
+      <div class="tech-skills-section">
+        <h3 class="sidebar-title">Tech Skills</h3>
+        <ul class="tech-skills-list">
+           <li class="tech-skills-item"><span class="tech-skills-item-text">HTML</span></li>
+           <li class="tech-skills-item"><span class="tech-skills-item-text">CSS</span></li>
+           <li class="tech-skills-item"><span class="tech-skills-item-text">JavaScript</span></li>
+           <li class="tech-skills-item"><span class="tech-skills-item-text">Git/GitHub</span></li>
+        </ul>
+      </div>
+
+      <!-- Soft skills section-->
+      <div class="soft-skills-section">
+        <h3 class="sidebar-title">Soft Skills</h3>
+        <ul class="soft-skills-list">
+          <li class="soft-skills-item"><span class="soft-skills-item-text">Teamwork</span></li>
+          <li class="soft-skills-item"><span class="soft-skills-item-text">Scrum</span></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+
 </body>
 </html>
