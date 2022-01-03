@@ -12,11 +12,43 @@ body {
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0,1);
 }
 
-/* my content srction*/
+/* my content section*/
 
 .main-content {
   padding: 100px 90px;
 }
+
+.my-content-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.about-me-conteiner {
+  margin: 0 0 40px 0;
+}
+
+.about-me-profession {
+   font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+  margin: 0 0 20px 0;
+}
+
+.about-me-name {
+  font-size: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000;
+  margin: 0 0 25px 0;
+}
+
  .my-discription {
    width: 400px;
    font-size: normal;
@@ -25,3 +57,67 @@ body {
    line-height: 24px;
    color: #595959;
  }
+
+ /* my course*/
+
+.my-project {
+  margin: 0 0 50px 0;
+}
+
+.my-project-list {
+  padding: 0 0 0 17px;
+}
+
+.my-project-item {
+  color: #000;
+  font-weight: bold;
+}
+.my-project-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.my-project-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  margin-left: 5px;
+}
+
+.my-project-bracket {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+/* my-work experence*/
+
+.my-work-experience-company {
+  color: #fb6d3a;
+}
+
+.my-work-experience-position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 10px 0;
+}
+.my-work-experience-time {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin: 0 0 10px 0;
+}
+.my-work-experience-diveder {
+  color: #000;
+}
